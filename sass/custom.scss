@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+@import "./modules/colors";
+@import "./modules/carousel";
+@import "./modules/about";
+
+// buttons
+.btn {
+    border: none;
+    color: aliceblue;
+    background-color: $button-color;
+}
+.btn:hover {
+    background-color: $button-hover;
+}
+// buttons
+
+// Nav
+nav {
+    background-color: $secondary-color;
+}
+// Nav
+
+// Hero
+.hero-container {
+    display: flex;
+    justify-content: center;
+}
+// Hero
+
+// Cards
+.card-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.card {
+    margin: 20px;
+}
+// Cards
+
+// Contact
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+
+    h1,
+    label {
+        display: flex;
+        justify-content: center;
+    }
+}
+// Contact

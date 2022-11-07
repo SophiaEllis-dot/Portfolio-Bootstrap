@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intro-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+.intro-container h2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.intro-container img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+.intro-container p {
+  text-align: center;
+  padding: 20px;
+}
+
+.btn {
+  border: none;
+  color: aliceblue;
+  background-color: rgba(90, 45, 83, 0.514);
+}
+
+.btn:hover {
+  background-color: rgb(123, 115, 228);
+}
+
+nav {
+  background-color: rgba(90, 15, 71, 0.473);
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+.card {
+  margin: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+.form-container h1,
+.form-container label {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=custom.css.map */
