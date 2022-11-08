@@ -92,4 +92,13 @@ nav {
 .form-container label {
   display: flex;
   justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(90, 15, 71, 0.473);
+}
+footer h1 {
+  padding: 20px;
 }/*# sourceMappingURL=custom.css.map */

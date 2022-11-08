@@ -60,3 +60,16 @@ nav {
     }
 }
 // Contact
+
+// Footer
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: $secondary-color;
+
+    h1 {
+        padding: 20px;
+    }
+}
+
+// Footer
